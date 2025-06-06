@@ -9,7 +9,7 @@ export default function Page(){
   if (isLoading) return (
     <div className="min-h-screen flex items-center justify-center">
       <p className="text-lg">Loading...</p>
-    </div>
+    </div>  
   );
   
   if (error) return ( 
