@@ -7,7 +7,7 @@ import { ReviewModule } from './review/review.module';
 
 @Module({
   imports: [BookModule,
-    MongooseModule.forRoot('mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.2'),
+    MongooseModule.forRoot('mongodb://mongodb:27017/mydatabase'),
     ReviewModule
   ],
   controllers: [AppController],
